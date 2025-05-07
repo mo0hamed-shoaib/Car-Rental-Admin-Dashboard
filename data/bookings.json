@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "user_id": 6,
+    "car_id": 3,
+    "from_date": "2025-04-24T14:30:00Z",
+    "to_date": "2025-04-27T18:00:00Z",
+    "booking_status": "Pending",
+    "total": 300,
+    "created_at": "2025-04-20T09:15:22Z"
+  },
+  {
+    "id": 2,
+    "user_id": 2,
+    "car_id": 9,
+    "from_date": "2025-04-25T10:00:00Z",
+    "to_date": "2025-04-27T16:30:00Z",
+    "booking_status": "Pending",
+    "total": 260,
+    "created_at": "2025-04-22T17:42:05Z"
+  },
+  {
+    "id": 3,
+    "user_id": 3,
+    "car_id": 5,
+    "from_date": "2025-04-20T08:45:00Z",
+    "to_date": "2025-04-24T12:00:00Z",
+    "booking_status": "Completed",
+    "total": 320,
+    "created_at": "2025-04-15T14:23:11Z"
+  },
+  {
+    "id": 4,
+    "user_id": 4,
+    "car_id": 1,
+    "from_date": "2025-04-22T11:15:00Z",
+    "to_date": "2025-04-25T13:45:00Z",
+    "booking_status": "Cancelled",
+    "total": 0,
+    "created_at": "2025-04-18T08:35:47Z"
+  },
+  {
+    "id": 5,
+    "user_id": 1,
+    "car_id": 2,
+    "from_date": "2025-04-18T15:30:00Z",
+    "to_date": "2025-04-23T10:00:00Z",
+    "booking_status": "Completed",
+    "total": 275,
+    "created_at": "2025-04-15T07:55:33Z"
+  },
+  {
+    "id": 6,
+    "user_id": 2,
+    "car_id": 9,
+    "from_date": "2025-03-12T09:15:00Z",
+    "to_date": "2025-03-16T11:30:00Z",
+    "booking_status": "Cancelled",
+    "total": 216,
+    "created_at": "2025-02-20T19:03:45Z"
+  },
+  {
+    "id": 7,
+    "user_id": 7,
+    "car_id": 2,
+    "from_date": "2025-01-05T13:00:00Z",
+    "to_date": "2025-01-08T16:45:00Z",
+    "booking_status": "Pending",
+    "total": 394,
+    "created_at": "2024-12-20T10:22:18Z"
+  },
+  {
+    "id": 8,
+    "user_id": 7,
+    "car_id": 11,
+    "from_date": "2024-12-20T12:30:00Z",
+    "to_date": "2024-12-27T14:00:00Z",
+    "booking_status": "Cancelled",
+    "total": 541,
+    "created_at": "2024-12-17T15:47:29Z"
+  },
+  {
+    "id": 9,
+    "user_id": 8,
+    "car_id": 13,
+    "from_date": "2024-10-07T09:45:00Z",
+    "to_date": "2024-10-11T17:15:00Z",
+    "booking_status": "Completed",
+    "total": 272,
+    "created_at": "2024-09-30T16:05:52Z"
+  },
+  {
+    "id": 10,
+    "user_id": 5,
+    "car_id": 15,
+    "from_date": "2025-03-15T14:00:00Z",
+    "to_date": "2025-03-20T11:30:00Z",
+    "booking_status": "Completed",
+    "total": 522,
+    "created_at": "2025-03-05T08:19:40Z"
+  },
+  {
+    "id": 11,
+    "user_id": 3,
+    "car_id": 14,
+    "from_date": "2025-03-25T10:30:00Z",
+    "to_date": "2025-03-31T13:00:00Z",
+    "booking_status": "Cancelled",
+    "total": 572,
+    "created_at": "2025-03-20T12:44:07Z"
+  },
+  {
+    "id": 12,
+    "user_id": 10,
+    "car_id": 10,
+    "from_date": "2024-10-28T08:15:00Z",
+    "to_date": "2024-11-04T16:00:00Z",
+    "booking_status": "Completed",
+    "total": 837,
+    "created_at": "2024-10-20T13:37:24Z"
+  },
+  {
+    "id": 13,
+    "user_id": 2,
+    "car_id": 3,
+    "from_date": "2025-02-20T11:45:00Z",
+    "to_date": "2025-02-25T14:30:00Z",
+    "booking_status": "Completed",
+    "total": 232,
+    "created_at": "2025-02-15T09:28:53Z"
+  },
+  {
+    "id": 14,
+    "user_id": 9,
+    "car_id": 9,
+    "from_date": "2024-11-20T15:15:00Z",
+    "to_date": "2024-11-22T12:00:00Z",
+    "booking_status": "Completed",
+    "total": 505,
+    "created_at": "2024-11-10T18:33:09Z"
+  },
+  {
+    "id": 15,
+    "user_id": 10,
+    "car_id": 13,
+    "from_date": "2025-02-20T09:30:00Z",
+    "to_date": "2025-02-25T15:45:00Z",
+    "booking_status": "Cancelled",
+    "total": 790,
+    "created_at": "2025-02-12T11:06:38Z"
+  },
+  {
+    "id": 16,
+    "user_id": 2,
+    "car_id": 6,
+    "from_date": "2025-03-05T13:30:00Z",
+    "to_date": "2025-03-07T17:00:00Z",
+    "booking_status": "Pending",
+    "total": 688,
+    "created_at": "2025-02-25T14:51:27Z"
+  },
+  {
+    "id": 17,
+    "user_id": 4,
+    "car_id": 14,
+    "from_date": "2025-02-13T10:15:00Z",
+    "to_date": "2025-02-16T12:45:00Z",
+    "booking_status": "Completed",
+    "total": 617,
+    "created_at": "2025-01-25T16:20:42Z"
+  },
+  {
+    "id": 18,
+    "user_id": 11,
+    "car_id": 9,
+    "from_date": "2025-02-12T14:45:00Z",
+    "to_date": "2025-02-14T18:15:00Z",
+    "booking_status": "Completed",
+    "total": 530,
+    "created_at": "2025-02-01T09:58:14Z"
+  },
+  {
+    "id": 19,
+    "user_id": 9,
+    "car_id": 7,
+    "from_date": "2025-03-25T12:00:00Z",
+    "to_date": "2025-03-28T15:30:00Z",
+    "booking_status": "Pending",
+    "total": 529,
+    "created_at": "2025-03-15T10:12:36Z"
+  },
+  {
+    "id": 20,
+    "user_id": 4,
+    "car_id": 6,
+    "from_date": "2025-02-10T08:00:00Z",
+    "to_date": "2025-02-12T10:30:00Z",
+    "booking_status": "Pending",
+    "total": 582,
+    "created_at": "2025-01-25T13:40:05Z"
+  }
+]

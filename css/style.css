@@ -1,0 +1,24 @@
+body {
+    background-color: #f6f6f6;
+}
+
+/* Navbar */
+.custom-navbar-hover {
+    transition: all 0.3s ease-in-out;
+}
+
+.custom-navbar-hover:hover {
+    color: #b92041;
+}
+
+.navbar .nav-link.active {
+    color: #b92041;
+    font-weight: 700;
+}
+/* ... End of Navbar ... */
+
+/* Table View */
+table td {
+    vertical-align: middle;
+}
+/* ... End of Table View ... */

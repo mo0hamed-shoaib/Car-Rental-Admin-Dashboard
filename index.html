@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rovera: Car Rental</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <!-- Injected Navbar -->
+    <div id="navbar"></div>
+
+    <!-- Page Title -->
+
+
+    <!-- Cards Container -->
+    <div class="container mt-4">
+        <!-- Page Title Row -->
+        <div class="row">
+            <div class="col-12 mb-4">
+                <p class="h5 text-start"><i class="bi bi-house-heart-fill me-2 "></i>Dashboard</p>
+            </div>
+        </div>
+        <!-- ... End of Page Title Row ... -->
+
+        <!-- Summary Cards Row -->
+        <div class="row">
+            <!-- Card 1 (From Left) -->
+            <div class="col-md-3 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="bi bi-car-front-fill display-6 text-primary"></i>
+                        <h5 class="card-title">Available Cars</h5>
+                        <p class="card-text fs-4" id="available-cars">0</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-3 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="bi bi-book-half display-6 text-success"></i>
+                        <h5 class="card-title">Current Bookings</h5>
+                        <p class="card-text fs-4" id="current-bookings">0</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-3 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="bi bi-person-heart display-6 text-warning"></i>
+                        <h5 class="card-title">Current Users</h5>
+                        <p class="card-text fs-4" id="current-users">0</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="col-md-3 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="bi bi-cash-stack display-6 text-secondary"></i>
+                        <h5 class="card-title">Total Revenue</h5>
+                        <p class="card-text fs-4" id="total-revenue">0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ... End of Summary Cards Row ... -->
+
+        <!-- Chart Statistics Cards Row -->
+        <div class="row">
+            <!-- Earnings Summary Chart (From Left) -->
+            <div class="col-md-6 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Earnings Summary</h5>
+                        <div class="chart-wrapper">
+                            <canvas id="earnings-summary-chart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bookings Per Month Chart -->
+            <div class="col-md-6 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Bookings Per Month</h5>
+                        <div class="chart-wrapper">
+                            <canvas id="bookings-per-month-chart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ... End of Statistics Cards Row ... -->
+
+        <!-- Round Statistics Cards Row -->
+        <div class="row">
+            <!-- Cars Per Type Chart (From Left) -->
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Cars Per Type</h5>
+                        <div class="chart-wrapper">
+                            <canvas id="cars-per-type-chart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bookings Per Month Chart -->
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Cars Status</h5>
+                        <div class="chart-wrapper">
+                            <canvas id="cars-status-chart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Payment Status Chart -->
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Payments Status</h5>
+                        <div class="chart-wrapper">
+                            <canvas id="payments-status-chart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ... End of Round Statistics Cards Row ... -->
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+
+    <!-- Chart.js -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+    <!-- Main JS -->
+    <script type="module" src="/js/main.js"></script>
+
+    <!-- Navbar Inject JS -->
+    <script type="module" src="/js/modules/navbar-inject.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,152 @@
+<!-- Bootstrap Form Control -->
+<div class="modal fade" id="formsModal" tabindex="-1" aria-labelledby="formsModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <form id="item-form" class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="formsModalLabel">Add Item</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body" id="form-fields-container">
+                <!-- Field groups -->
+                <div id="bookings-fields" class="d-none">
+                    <!-- Booking input fields here -->
+                    <div class="mb-3">
+                        <label for="user_id" class="form-label">Select User</label>
+                        <select id="user_id" class="form-select" required>
+                            <!-- Users options will be injected here -->
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="car_id" class="form-label">Select Car</label>
+                        <select id="car_id" class="form-select" required>
+                            <!-- Cars options will be injected here -->
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">From Date</label>
+                        <input type="date" class="form-control" id="from_date">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">To Date</label>
+                        <input type="date" class="form-control" id="to_date">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Status</label>
+                        <select id="booking_status" class="form-select" required>
+                            <option value="">Select Status</option>
+                            <option value="Completed">Completed</option>
+                            <option value="Cancelled">Cancelled</option>
+                            <option value="Pending">Pending</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div id="cars-fields" class="d-none">
+                    <!-- Car input fields -->
+                    <div class="mb-3">
+                        <label class="form-label">Car Name</label>
+                        <input type="text" class="form-control" id="car_name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Manufacturer</label>
+                        <input type="text" class="form-control" id="manufacturer" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Model</label>
+                        <input type="text" class="form-control" id="model">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Year</label>
+                        <input type="text" class="form-control" id="year" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Body Type</label>
+                        <select id="body_type" class="form-select" required>
+                            <option value="">Select Body Type</option>
+                            <option value="Sedan">Sedan</option>
+                            <option value="SUV">SUV</option>
+                            <option value="Hatchback">Hatchback</option>
+                            <option value="Coupe">Coupe</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Number of Seats</label>
+                        <select id="num_of_seats" class="form-select" required>
+                            <option value="">Select Number of Seats</option>
+                            <option value="2">2</option>
+                            <option value="5">5</option>
+                            <option value="8">8</option>
+                            <option value="10">10</option>
+                            <option value="12">12</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Transmission</label>
+                        <select id="transmission" class="form-select" required>
+                            <option value="">Select Transmission</option>
+                            <option value="Automatic">Automatic</option>
+                            <option value="Manual">Manual</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Fuel Type</label>
+                        <select id="fuel_type" class="form-select" required>
+                            <option value="">Select Fuel Type</option>
+                            <option value="Electric">Electric</option>
+                            <option value="Petrol">Petrol</option>
+                            <option value="Hybrid">Hybrid</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Daily Rate</label>
+                        <input type="text" class="form-control" id="daily_rate" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Status</label>
+                        <select id="status" class="form-select" required>
+                            <option value="">Select Status</option>
+                            <option value="Available">Available</option>
+                            <option value="Maintenance">Maintenance</option>
+                            <option value="Booked">Booked</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Image URL</label>
+                        <input type="text" class="form-control" id="image_url" required>
+                    </div>
+                </div>
+
+                <div id="users-fields" class="d-none">
+                    <!-- User input fields -->
+                    <div class="mb-3">
+                        <label class="form-label">Name</label>
+                        <input type="text" class="form-control" id="user_name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Role</label>
+                        <select id="role" class="form-select" required>
+                            <option value="">Select Role</option>
+                            <option value="User">User</option>
+                            <option value="Admin">Admin</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-primary">Save</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- End of Bootstrap Form Control -->
